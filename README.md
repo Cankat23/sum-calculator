@@ -11,6 +11,6 @@ A simple C++ program that calculates the sum of integers from 1 to a given numbe
 ## Concepts used
 * for loop
 * cin / cout (Input & Output)
-* Variables (int)
+* Variables (long long to avoid overflow)
 * Arithmetic operators
 * Basic Algorithm logic
