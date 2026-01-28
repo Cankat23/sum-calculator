@@ -8,11 +8,9 @@ int main() {
     cout << "Enter number: ";
     cin >> number;
     
-    for (long long i = 1; i <= number; i++) {
-        
-        sum = sum + i;
-    }
-    cout << "Result: " << sum;
+    sum = (number * (number + 1)) / 2;
+    
+    cout << "Result: " << sum << endl;
     
     return 0;
 }
