@@ -8,6 +8,12 @@ int main() {
     cout << "Enter number: ";
     cin >> number;
     
+    while (number > 999999999){
+        cout << "Warning: Number is too big! It may cause incorrect results." << endl;
+        cout << "Please enter a number smaller than 1,000,000,000: ";
+        cin >> number;
+    }
+
     sum = (number * (number + 1)) / 2;
     
     cout << "Result: " << sum << endl;
